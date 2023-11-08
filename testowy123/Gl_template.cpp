@@ -4,6 +4,7 @@
 
 
 //DODANA LINIJKA HEH
+// druga dodana linijka jeh
 // £adowanie bibliotek:
 
 #ifdef _MSC_VER                         // Check if MS Visual C compiler
