@@ -3,7 +3,7 @@
 #define  _CRT_SECURE_NO_WARNINGS
 
 
-
+//DODANA LINIJKA HEH
 // £adowanie bibliotek:
 
 #ifdef _MSC_VER                         // Check if MS Visual C compiler
