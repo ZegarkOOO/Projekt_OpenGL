@@ -1,0 +1,14 @@
+﻿  Gl_template.cpp
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(350,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(389,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(389,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(389,52): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(389,52): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(390,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(390,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(390,53): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(390,53): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(1005,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(1187,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\Gl_template.cpp(1188,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+  testowy123.vcxproj -> C:\Users\kondz\OneDrive\Pulpit\Projekty\testowy123\x64\Debug\testowy123.exe
