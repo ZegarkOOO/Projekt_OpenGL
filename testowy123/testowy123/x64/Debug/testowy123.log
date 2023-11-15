@@ -1,15 +1,15 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (testowy123.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Gl_template.cpp
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(351,30): warning C4018: '<': signed/unsigned mismatch
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(390,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(390,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(390,52): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(390,52): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(391,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(391,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(391,53): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(391,53): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1006,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1188,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1189,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(358,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(397,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(397,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(397,52): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(397,52): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(398,25): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(398,25): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(398,53): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(398,53): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1023,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1205,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\Gl_template.cpp(1206,27): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
   testowy123.vcxproj -> C:\Users\kondz\OneDrive\Dokumenty\GitHub\Projekt_OpenGL\testowy123\x64\Debug\RAK.exe

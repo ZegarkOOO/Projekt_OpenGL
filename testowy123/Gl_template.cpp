@@ -28,6 +28,7 @@
 #      undef UNICODE 
 #   endif
 #endif
+#include <glew.h>
 #include <windows.h>            // Window defines
 #include <gl\gl.h>              // OpenGL
 #include <gl\glu.h>             // GLU library
@@ -35,6 +36,16 @@
 #include <stdio.h>
 #include <vector>
 #include "resource.h"           // About box resource identifiers.
+
+#include <iostream>
+#include <glm.hpp>
+#include <vec3.hpp>
+#include <vec2.hpp>
+#include <vec4.hpp>
+#include <mat4x4.hpp>
+#include <gtc/matrix_transform.hpp>
+#include <gtc/type_ptr.hpp>
+
 
 #define glRGB(x, y, z)	glColor3ub((GLubyte)x, (GLubyte)y, (GLubyte)z)
 #define BITMAP_ID 0x4D42		// identyfikator formatu BMP
@@ -50,6 +61,7 @@ static HINSTANCE hInstance;
 // Rotation amounts
 static GLfloat xRot = 0.0f;
 static GLfloat yRot = 0.0f;
+
 
 
 static GLsizei lastHeight;
@@ -817,7 +829,7 @@ void RenderScene(void)
 	//szescian();
 	//cegla(0.0, 0.0, 0.0);
 	//mur(5,5);
-	//most();
+	most();
 	//Uzyskanie siatki:
 	glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 
