@@ -33,6 +33,7 @@
 #include <gl\glu.h>             // GLU library
 #include <math.h>				// Define for sqrt
 #include <stdio.h>
+#include <vector>
 #include "resource.h"           // About box resource identifiers.
 
 #define glRGB(x, y, z)	glColor3ub((GLubyte)x, (GLubyte)y, (GLubyte)z)
