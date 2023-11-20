@@ -136,6 +136,8 @@
   <ItemGroup>
     <ClInclude Include="..\RESOURCE.H" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="OBJloader.h" />
+    <ClInclude Include="OBJloader2.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testowy123.h" />

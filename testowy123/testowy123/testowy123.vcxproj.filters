@@ -30,6 +30,12 @@
     <ClInclude Include="..\RESOURCE.H">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OBJloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJloader2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Gl_template.cpp">

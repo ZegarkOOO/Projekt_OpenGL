@@ -38,6 +38,7 @@
 #include "resource.h"           // About box resource identifiers.
 
 #include <iostream>
+#include <fstream>
 #include <glm.hpp>
 #include <vec3.hpp>
 #include <vec2.hpp>
@@ -45,6 +46,7 @@
 #include <mat4x4.hpp>
 #include <gtc/matrix_transform.hpp>
 #include <gtc/type_ptr.hpp>
+#include "testowy123/OBJloader2.h"
 
 
 #define glRGB(x, y, z)	glColor3ub((GLubyte)x, (GLubyte)y, (GLubyte)z)
@@ -804,6 +806,23 @@ void mur(int ile_warst, int ile_ceg) {
 	}
 }
 
+void model() {
+	std::vector< glm::vec3 > vertices;
+	std::vector< glm::vec2 > uvs;
+	std::vector< glm::vec3 > normals;
+
+	bool res = loadOBJ("kostka.obj", vertices, uvs, normals);
+
+	GLuint lazik;
+	glGenBuffers(1, &lazik);
+	glBindBuffer(GL_ARRAY_BUFFER, lazik);
+	if(res!=true)
+	 	glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(glm::vec3), &vertices[0], GL_STATIC_DRAW);
+	glEnableVertexAttribArray(0);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+	glDrawArrays(GL_TRIANGLES, 0, vertices.size());
+}
+
 
 // Called to draw scene
 void RenderScene(void)
@@ -829,9 +848,10 @@ void RenderScene(void)
 	//szescian();
 	//cegla(0.0, 0.0, 0.0);
 	//mur(5,5);
-	most();
+	//most();
+	model();
 	//Uzyskanie siatki:
-	glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
+	//glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
 
 	//Wyrysowanie prostokata:
 	//glRectd(-10.0,-10.0,20.0,20.0);
