@@ -24,7 +24,7 @@
 
 				 
 bool loadOBJ(
-		std::string path,
+		const char * path,
 		std::vector <glm::vec3> & out_vertices,
 		std::vector <glm::vec2> & out_uvs,
 		std::vector <glm::vec3> & out_normals	)	 
@@ -39,7 +39,7 @@ bool loadOBJ(
 	
 	//otwarcie pliku
 	
-	FILE* file = fopen(path.c_str(), "r");
+	FILE* file = fopen(path, "r");
 	if (file == NULL) {
 		printf("Impossible to open the file!\n");
 		return false;
@@ -100,8 +100,12 @@ bool loadOBJ(
 			normalIndices.push_back(normalIndex[2]);
 			
 		}
+		else {
+			char stupidBuffer[1000];
+			fgets(stupidBuffer, 1000, file);
+		}
 	}//while
-
+	/*
 	//petla przypisujemy dane z temp_vertices do vec3 (vektor ktorego lubi OpenGL)
 	for (unsigned int i = 0; i < vertexIndices.size(); i++) {
 		unsigned int vertexIndex = vertexIndices[i];
@@ -127,7 +131,27 @@ bool loadOBJ(
 
 		//push do naszego vektora z argumentu
 		out_normals.push_back(vertex);
+	}*/
+	for (unsigned int i = 0; i < vertexIndices.size(); i++) {
+
+		// Get the indices of its attributes
+		unsigned int vertexIndex = vertexIndices[i];
+		unsigned int uvIndex = uvIndices[i];
+		unsigned int normalIndex = normalIndices[i];
+
+		// Get the attributes thanks to the index
+		glm::vec3 vertex = temp_vertices[vertexIndex - 1];
+		glm::vec2 uv = temp_uvs[uvIndex - 1];
+		glm::vec3 normal = temp_normals[normalIndex - 1];
+
+		// Put the attributes in buffers
+		out_vertices.push_back(vertex);
+		out_uvs.push_back(uv);
+		out_normals.push_back(normal);
+
 	}
+	fclose(file);
+	return true;
 }
 
 
